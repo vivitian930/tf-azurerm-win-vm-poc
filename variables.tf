@@ -2,6 +2,11 @@ variable "resource_group_name" {
   type = string
 }
 
+variable "resource_group_location" {
+  type        = string
+  description = "Location of the resource group."
+}
+
 variable "name" {
   type        = string
   description = "VM name"
