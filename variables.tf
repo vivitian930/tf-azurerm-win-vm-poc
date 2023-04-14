@@ -1,8 +1,3 @@
-variable "existing" {
-  type        = string
-  description = "(optional) describe your variable"
-}
-
 variable "resource_group_name" {
   type = string
 }
@@ -24,7 +19,7 @@ variable "os_image" {
   default = {
     publisher = "MicrosoftWindowsServer"
     offer     = "WindowsServer"
-    sku       = "2016-Datacenter"
+    sku       = "2019-Datacenter"
     version   = "latest"
     plan      = false
   }
